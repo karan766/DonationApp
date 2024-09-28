@@ -4,10 +4,13 @@ import { useSession, signIn, signOut } from "next-auth/react";
 import { useRouter } from 'next/navigation';
 
 const Page = () => {
+
+  const router = useRouter();
   const { data: session } = useSession()
+  
 
    if (session) {
-     const router = useRouter();
+     
      router.push("/dashboard");
        
     }

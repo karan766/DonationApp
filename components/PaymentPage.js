@@ -154,7 +154,7 @@ const PaymentPage = ({ params }) => {
                     <span>
                       {p.name} donated{" "}
                       <span className="font-bold">{p.amount} </span> with a
-                      message "{p.message}"
+                      message {p.message}
                     </span>
                   </li>
                 );
