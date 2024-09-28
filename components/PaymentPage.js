@@ -13,7 +13,6 @@ import { useForm } from "react-hook-form";
 import { notFound } from "next/navigation";
 
 const PaymentPage = ({ params }) => {
-  // const { data: session } = useSession();
 
   const [currentUser, setcurrentUser] = useState({});
   const [payments, setpayments] = useState([]);
