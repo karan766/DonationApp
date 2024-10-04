@@ -6,7 +6,7 @@
         );
         console.log(`MongoDB Connected: ${conn.connection.host}`);
     }catch(err){
-        console.error(error.message);
+        console.error(err.message);
         process.exit(1);
     }
  }
