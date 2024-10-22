@@ -22,8 +22,9 @@ const Page = () => {
 
       <div className="social-login-btn flex flex-col gap-4 mb-[.65rem] p-10">
               <button className="flex items-center border border-gray-300 rounded-lg shadow-md max-w-xl py-2 text-sm font-medium hover:bg-indigo-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 hover:text-black w-full justify-between px-20 bg-slate-100 text-black"
-              onClick={() => signIn("github")}
+              onClick={() => signIn("google")}
               >
+
                 <svg
                   className="h-6 w-6 mr-2"
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +83,7 @@ const Page = () => {
               </button>
 
               <button className="flex items-center border border-gray-300 rounded-lg shadow-md max-w-xl py-2 text-sm font-medium hover:bg-indigo-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 hover:text-black w-full justify-between px-20 bg-slate-100 text-black"
-              onClick={() => signIn("github")}
+              onClick={() => signIn("")}
               >
                 <svg
                   className="h-6 w-6 mr-2"
@@ -114,7 +115,7 @@ const Page = () => {
               </button>
 
               <button className="flex items-center border border-gray-300 rounded-lg shadow-md max-w-xl py-2 text-sm font-medium hover:bg-indigo-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 hover:text-black w-full justify-between px-20 bg-slate-100 text-black"
-              onClick={() => signIn("github")}
+              onClick={() => signIn("")}
               >
                 <svg
                   className="h-6 w-6 mr-2"
@@ -147,7 +148,7 @@ const Page = () => {
               </button>
 
               <button className="flex items-center border border-gray-300 rounded-lg shadow-md max-w-xl py-2 text-sm font-medium hover:bg-indigo-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 hover:text-black w-full justify-between px-20 bg-slate-100 text-black"
-              onClick={() => signIn("github")}
+              onClick={() => signIn("")}
               >
                 <svg
                   className="h-6 w-6 mr-2"
@@ -202,7 +203,7 @@ const Page = () => {
                       fillRule="nonzero"
                     >
                       <rect
-                        id="mask"
+                        id="mask" 
                         stroke="#000000"
                         strokeWidth="2"
                         fill="#000000"
@@ -225,7 +226,7 @@ const Page = () => {
               </button>
 
               <button className="flex items-center border border-gray-300 rounded-lg shadow-md max-w-xl py-2 text-sm font-medium hover:bg-indigo-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 hover:text-black w-full justify-between px-20 bg-slate-100 text-black"
-              onClick={() => signIn("github")}
+              onClick={() => signIn("")}
               >
                 <svg
                   className="h-6 w-6 mr-2"
