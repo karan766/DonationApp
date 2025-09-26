@@ -1,4 +1,4 @@
-# 🍵 Buy Me a Chai - Crowdfunding Platform
+# 🍵  Crowdfunding Platform
 
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
